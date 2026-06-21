@@ -1,9 +1,6 @@
 """
 models.py — инициализация базовой модели и подключение PEFT-конфигураций.
 
-Функция create_model по описанию метода из config.METHODS возвращает готовую
-к обучению модель: либо полную (Full Fine-Tuning), либо обёрнутую в один из
-PEFT-методов (LoRA / IA3 / Prompt Tuning / Prefix Tuning).
 """
 
 from transformers import AutoModelForSequenceClassification
