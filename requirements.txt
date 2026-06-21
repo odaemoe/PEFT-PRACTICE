@@ -1,0 +1,11 @@
+# Версии зафиксированы под связку, на которой проект протестирован.
+# PEFT 0.11.1 — как в исходной курсовой работе (без зависимости от torchao).
+torch>=2.0
+transformers==4.41.2
+peft==0.11.1
+datasets==2.19.2
+accelerate==0.30.1
+scikit-learn>=1.3
+pandas>=2.0
+matplotlib>=3.7
+tabulate>=0.9          # нужен для сохранения таблиц в Markdown (df.to_markdown)
